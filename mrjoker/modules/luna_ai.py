@@ -69,20 +69,20 @@ async def kaj(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("Mr.JokerAI Already Activated In This Chat")
+            await lel.edit("Angel AI Already Activated In This Chat")
             return
         await lel.edit(
-            f"Mr.Joker AI Successfully Added For Users In The Chat {message.chat.id}"
+            f"Angel AI Successfully Added For Users In The Chat {message.chat.id}"
         )
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("Mr.Joker AI Was Not Activated In This Chat")
+            await lel.edit("Angel AI Was Not Activated In This Chat")
             return
         await lel.edit(
-            f"Mr.Joker AI Successfully Deactivated For Users In The Chat {message.chat.id}"
+            f"Angel AI Successfully Deactivated For Users In The Chat {message.chat.id}"
         )
 
     elif status == "EN" or status == "en" or status == "english":
@@ -100,8 +100,8 @@ async def kaj(_, message):
 @mrjoker.on_message(filters.command("repo") & ~filters.edited)
 async def repo(_, message):
     await message.reply_text(
-        "[GitHub](https://github.com/kjeymax/MR-JOKER_BOT)"
-        + " | [HITECH Group](t.me/hitechlkgroup)",
+        "[Dev](t.me/ThomasShebLYY)"
+        + " | [Support Group](t.me/angelsupports)",
         disable_web_page_preview=True,
     )
 
