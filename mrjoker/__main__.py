@@ -72,7 +72,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-MRJOKER_IMG = "https://telegra.ph/file/7adac6748fb61e34aeaf1.mp4"
+MRJOKER_IMG = "https://telegra.ph/file/53093f5a638a1d249f48f.png"
 
 MRJOKER_AUD = "https://audio.jukehost.co.uk/kKJkdHgoMPeqdel4sDrEHr7m4U6o4Xya"
 
