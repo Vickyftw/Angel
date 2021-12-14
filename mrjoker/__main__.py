@@ -78,9 +78,9 @@ MRJOKER_AUD = "https://audio.jukehost.co.uk/kKJkdHgoMPeqdel4sDrEHr7m4U6o4Xya"
 
 
 PM_START_TEXT = """
-*Hello there*, *I*'*m* [ᴀɴɢᴇL](https://telegra.ph/file/1414312e8d47e9d283259.png)
-*I am an 𝐴𝑛𝑖𝑚𝑒 Themed Group Managing Bot and I will help in managing your group*
-✨🥳 **Make sure you read** `INFO` **Section Below** ✨🥳
+*Hello there*, *I*'*m* [𝘼𝙣𝙜𝙚𝙡](https://telegra.ph/file/1414312e8d47e9d283259.png)
+*ɪ ᴀᴍ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ꜱᴜᴘᴇʀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴍᴀɴʏ ʜᴀɴᴅʏ ᴛᴏᴏʟꜱ. ꜱᴏ ᴡʜʏ ᴀʀᴇ ʏᴏᴜ ᴡᴀɪᴛɪɴɢ. ʟᴇᴛ ᴍᴇ ᴛᴏ ᴀꜱꜱɪꜱᴛ ʏᴏᴜ*
+✨🥳 **Make sure you read** `INFO` **Section Below** 💃🏻✨
 """
 
 buttons = [
@@ -95,12 +95,12 @@ buttons = [
     [
         InlineKeyboardButton(text="🧚 𝗜𝗡𝗙𝗢 🧚‍♀", callback_data="mrjoker_"),
         InlineKeyboardButton(
-            text=" 𝗕𝗔𝗦𝗜𝗖 𝗛𝗘𝗟𝗣 👮", callback_data="mrjoker_basichelp"
+            text="💈 𝗕𝗔𝗦𝗜𝗖 𝗛𝗘𝗟𝗣 💈", callback_data="mrjoker_basichelp"
         ),
     ],
     
     [
-        InlineKeyboardButton(text="➕💕ᴛᴀᴋᴇ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴘ 💕 ➕", url="http://t.me/AngelxRobot?startgroup=true"),
+        InlineKeyboardButton(text="💕 ᴛᴀᴋᴇ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴘ 💕 ", url="http://t.me/AngelxRobot?startgroup=true"),
     ],
 ]
 
@@ -227,12 +227,12 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            MRJOKER_IMG, caption= "Me Iz Alive Sar!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            MRJOKER_IMG, caption= "✨🦄 𝙈𝙚 𝙞𝙯 𝘼𝙬𝙖𝙠𝙚 ! 🌻✨\n<b>𝙃𝙖𝙫𝙚𝙣'𝙩 𝙨𝙡𝙚𝙥𝙩 𝙨𝙞𝙣𝙘𝙚🥺✨🧟‍♀️:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="💔𝗦𝗨𝗣𝗣𝗢𝗥𝗧💔", url="t.me/angelsupports")]]
+                [[InlineKeyboardButton(text="💔𝙎𝙪𝙥𝙥𝙤𝙧𝙩💔", url="t.me/angelsupports")]]
             ),
         )
         
@@ -478,7 +478,7 @@ def mrjoker_about_callback(update, context):
     elif query.data == "mrjoker_credit":
         query.message.edit_text(
             text=f"<b> CREDIT FOR ANGEL DEV'S</b>\n"
-            f"\nHere Some Developers Helping in Making The Mr.Joker Bot",
+            f"\nHere Some Developers Helping in Making The Bot",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
@@ -497,8 +497,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤡 I'm *MⷨRͬ.JOͦᴋⷦEͤRͬ*
-                 \nHere is the [🤡Source Code🤡](https://github.com/kmacprt/MR-JOKER-BOT) .""",
+            text=""" Hi.. I'm *Angel*
+                 \nHere is the [Source Code](https://t.me/angelsupports) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -549,13 +549,13 @@ def get_help(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝗛𝗘𝗟𝗣 🙋",
+                            text="💝 𝗛𝗘𝗟𝗣 💝",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗖𝗛𝗔𝗧 📢 ",
+                            text=" 🥂𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗖𝗛𝗔𝗧🥂 ",
                             url="https://t.me/{}".format(SUPPORT_CHAT),
                         )
                     ],
