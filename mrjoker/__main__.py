@@ -78,24 +78,24 @@ MRJOKER_AUD = "https://audio.jukehost.co.uk/kKJkdHgoMPeqdel4sDrEHr7m4U6o4Xya"
 
 
 PM_START_TEXT = """
-*Hello there*, *I*'*m* [𝘼𝙣𝙜𝙚𝙡](https://telegra.ph/file/1414312e8d47e9d283259.png)
+*ʜᴇʟʟᴏ ᴛʜᴇʀᴇ*, *ɪ*'*ᴍ* [𝘼𝙣𝙜𝙚𝙡](https://telegra.ph/file/1414312e8d47e9d283259.png)
 *ɪ ᴀᴍ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ꜱᴜᴘᴇʀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴍᴀɴʏ ʜᴀɴᴅʏ ᴛᴏᴏʟꜱ. ꜱᴏ ᴡʜʏ ᴀʀᴇ ʏᴏᴜ ᴡᴀɪᴛɪɴɢ. ʟᴇᴛ ᴍᴇ ᴛᴏ ᴀꜱꜱɪꜱᴛ ʏᴏᴜ*
-✨🥳 **Make sure you read** `INFO` **Section Below** 💃🏻✨
+✨🥳 **ᴍᴀᴋᴇ ꜱᴜʀᴇ ʏᴏᴜ ʀᴇᴀᴅ** `ɪɴꜰᴏ` **ꜱᴇᴄᴛɪᴏɴ ʙᴇʟᴏᴡ** 💃🏻✨
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="🙋🏻‍♀ 𝗛𝗘𝗟𝗣 🙋🏻‍♀️", callback_data="help_back"),
+            text="🙋 ʜᴇʟᴘ 🙋🏻‍♀️", callback_data="help_back"),
     ],
    # [
      #   InlineKeyboardButton(
      #       text ="Language", callback_data="set_lang_"),
     #],
     [
-        InlineKeyboardButton(text="🧚 𝗜𝗡𝗙𝗢 🧚‍♀", callback_data="mrjoker_"),
+        InlineKeyboardButton(text="🧚 ɪɴꜰᴏ 🧚‍♀", callback_data="mrjoker_"),
         InlineKeyboardButton(
-            text="💈 𝗕𝗔𝗦𝗜𝗖 𝗛𝗘𝗟𝗣 💈", callback_data="mrjoker_basichelp"
+            text="💈 ʙᴀꜱɪᴄ ʜᴇʟᴘ 💈", callback_data="mrjoker_basichelp"
         ),
     ],
     
@@ -107,7 +107,7 @@ buttons = [
 
 HELP_STRINGS = """
 **SETTINGS**
-**𝐂𝐥𝐢𝐜𝐤 𝐨𝐧 𝐭𝐡𝐞 𝐛𝐮𝐭𝐭𝐨𝐧𝐬 𝐛𝐞𝐥𝐨𝐰 𝐭𝐨 𝐠𝐞𝐭 𝐝𝐨𝐜𝐮𝐦𝐞𝐧𝐭𝐚𝐭𝐢𝐨𝐧 𝐚𝐛𝐨𝐮𝐭 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐦𝐨𝐝𝐮𝐥𝐞𝐬**[🎀](https://telegra.ph/file/a384a9a5d86c352a46f38.png)"""
+**ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ**[🎀](https://telegra.ph/file/a384a9a5d86c352a46f38.png)"""
 
 
 
@@ -227,7 +227,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            MRJOKER_IMG, caption= "✨🦄 𝙈𝙚 𝙞𝙯 𝘼𝙬𝙖𝙠𝙚 ! 🌻✨\n<b>𝙃𝙖𝙫𝙚𝙣'𝙩 𝙨𝙡𝙚𝙥𝙩 𝙨𝙞𝙣𝙘𝙚🥺✨🧟‍♀️:</b> <code>{}</code>".format(
+            MRJOKER_IMG, caption= "✨🦄 𝙈𝙚 𝙞𝙯 𝘼𝙬𝙖𝙠𝙚 ! 🌻✨\n<b>𝙃𝙖𝙫𝙚𝙣'𝙩 𝙨𝙡𝙚𝙥𝙩 𝙨𝙞𝙣𝙘𝙚🥺:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -366,7 +366,7 @@ def mrjoker_about_callback(update, context):
     if query.data == "mrjoker_":
         query.message.edit_text(
             
-            text=f"*v 🕊 Hi again!  The name's {dispatcher.bot.first_name} 🕊 \n\nAs  You I'm a next generational group management bot developed by ANGEL TEAM .* "
+            text=f"* 🕊 Hi again!  The name's {dispatcher.bot.first_name} 🕊 \n\nAs  You I'm a next generational group management bot developed by ANGEL TEAM .* "
             f"\n\n 🔥 Join [ANGEL](https://t.me/angelsupports) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [Support Grp](https://t.me/angelsupports)"
@@ -483,7 +483,7 @@ def mrjoker_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lead Dev", url="t.me/ThomasShebLYY"),
+                    InlineKeyboardButton(text="DevofAngel", url="t.me/ThomasShebLYY"),
                     InlineKeyboardButton(text="Support Grp", url="t.me/angelsupports"),
                  
                  ]
@@ -799,7 +799,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "💃🏻𝙄 𝘼ᴍ 𝘼ʟɪᴠᴇ💃🏻")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "🚀😼𝙄 𝘼𝙢 𝙊𝙉𝙇𝙄𝙉𝙀 😼🚀")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
