@@ -514,7 +514,7 @@ Note:
  🔹 `<sticker link>` can be `https://t.me/addstickers/<sticker>` or just `<sticker>` or reply to the sticker message
 """
 
-__mod_name__ = "Stickers Blacklist"
+__mod_name__ = "ꜱᴛɪᴄᴋᴇʀꜱ ʙʟᴀᴄᴋʟɪꜱᴛ⬛️"
 
 BLACKLIST_STICKER_HANDLER = DisableAbleCommandHandler(
     "blsticker", blackliststicker, admin_ok=True
