@@ -449,7 +449,7 @@ def __stats__():
     )
 
 
-__mod_name__ = "BlackList"
+__mod_name__ = "ʙʟᴀᴄᴋʟɪꜱᴛ🏴"
 
 __help__ = """
 
