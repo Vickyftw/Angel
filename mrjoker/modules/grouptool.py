@@ -107,4 +107,4 @@ __help__ = """
  🔹 `/setsticker` *:* As a reply to some sticker to set it as group sticker set!
  🔹 `/setdescription` <description> *:* Sets new chat description in group.
 """
-__mod_name__ = "Group Tools"
+__mod_name__ = "ɢʀᴏᴜᴘ ᴛᴏᴏʟꜱ🧰"
