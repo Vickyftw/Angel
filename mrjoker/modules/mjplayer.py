@@ -1,5 +1,5 @@
   
-__mod_name__ = "Media"
+__mod_name__ = "ᴍᴇᴅɪᴀ🪄"
 
 __help__ = """
 🔹 `/video` <query>: download video from youtube
