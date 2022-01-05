@@ -76,4 +76,4 @@ __help__ = """
   🔹 `/dare` : for random dare.
 """
 
-__mod_name__ = "Emoji-Games"
+__mod_name__ = "ᴇᴍᴏᴊɪ-ɢᴀᴍᴇꜱ🎮"
