@@ -215,7 +215,7 @@ instead of doing it manually.
 Otherwise, the old message will get re-pinned when the channel sends any messages.
 """
 
-__mod_name__ = "Pins"
+__mod_name__ = "ᴘɪɴꜱ📌"
 
 
 PIN_HANDLER = CommandHandler("pin", pin, pass_args=True, filters=Filters.group)
