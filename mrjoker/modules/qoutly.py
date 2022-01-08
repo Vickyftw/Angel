@@ -449,7 +449,7 @@ async def _(event):
 
     
     
-__mod_name__ = "Quotly"
+__mod_name__ = "Qᴜᴏᴛʟʏ🌟"
 
 __help__ = """
 🔹 /q [in reply to message]
