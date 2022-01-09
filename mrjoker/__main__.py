@@ -72,7 +72,7 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-MRJOKER_IMG = "https://telegra.ph/file/53093f5a638a1d249f48f.png"
+MRJOKER_IMG = "https://telegra.ph/file/ab1657c2c46b20c145a48.mp4"
 
 MRJOKER_AUD = "https://audio.jukehost.co.uk/kKJkdHgoMPeqdel4sDrEHr7m4U6o4Xya"
 
@@ -86,14 +86,14 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="🙋 ʜᴇʟᴘ 🙋🏻‍♀️", callback_data="help_back"),
+            text="🙋🏻‍♀️ ʜᴇʟᴘ 🙋🏻‍♀️", callback_data="help_back"),
     ],
    # [
      #   InlineKeyboardButton(
      #       text ="Language", callback_data="set_lang_"),
     #],
     [
-        InlineKeyboardButton(text="🧚 ɪɴꜰᴏ 🧚‍♀", callback_data="mrjoker_"),
+        InlineKeyboardButton(text="⚡️ ɪɴꜰᴏ ⚡", callback_data="mrjoker_"),
         InlineKeyboardButton(
             text="💈 ʙᴀꜱɪᴄ ʜᴇʟᴘ 💈", callback_data="mrjoker_basichelp"
         ),
@@ -106,8 +106,8 @@ buttons = [
 
 
 HELP_STRINGS = """
-**SETTINGS**
-**ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ**[🎀](https://telegra.ph/file/a384a9a5d86c352a46f38.png)"""
+**ꜱᴇᴛᴛɪɴɢꜱ⚙️**
+**🎀ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ**[🎀](https://telegra.ph/file/a384a9a5d86c352a46f38.png)"""
 
 
 
@@ -410,15 +410,15 @@ def mrjoker_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="𝗔𝗗𝗠𝗜𝗡 👮‍♂️", callback_data="mrjoker_admin"),
-                    InlineKeyboardButton(text="𝗡𝗢𝗧𝗘𝗦 📋", callback_data="mrjoker_notes"),
+                    InlineKeyboardButton(text="ᴀᴅᴍɪɴ 👮‍♂️", callback_data="mrjoker_admin"),
+                    InlineKeyboardButton(text="ɴᴏᴛᴇꜱ 📋", callback_data="mrjoker_notes"),
                  ],
                  [
-                    InlineKeyboardButton(text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 👥", callback_data="mrjoker_support"),
-                    InlineKeyboardButton(text="𝗖𝗥𝗘𝗗𝗜𝗧 👨🏻‍💻", callback_data="mrjoker_credit"),
+                    InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ 👥", callback_data="mrjoker_support"),
+                    InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛ 👨🏻‍💻", callback_data="mrjoker_credit"),
                  ],
                  [
-                    InlineKeyboardButton(text="𝐆𝐎 𝐈𝐍𝐋𝐈𝐍𝐄 ↗️", switch_inline_query_current_chat=""),
+                    InlineKeyboardButton(text="ɢᴏ ɪɴʟɪɴᴇ ↗️", switch_inline_query_current_chat=""),
                  ],
                  [
                     InlineKeyboardButton(text="⬅️ 𝗕𝗔𝗖𝗞", callback_data="mrjoker_back"),
@@ -464,7 +464,7 @@ def mrjoker_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="𝗟𝗢𝗚'ꜱ", url="https://t.me/angelxlogs"),
+                    InlineKeyboardButton(text="ʟᴏɢ'ꜱ", url="https://t.me/angelxlogs"),
                  ],
                  [
                     InlineKeyboardButton(text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 👥", url= "https://t.me/angelsupports"),
@@ -799,7 +799,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "🚀😼𝙄 𝘼𝙢 𝙊𝙉𝙇𝙄𝙉𝙀 😼🚀")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "🔥😹 Ｍｅ ｉｚ Ｂａｃｋ  😼⚡️")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
