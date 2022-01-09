@@ -20,10 +20,11 @@ __help__ = """
 4.) turn on the voice chat first before start to stream video.
 5.) type /vplay (reply to video) to start streaming.
 6.) type /vstop to end the video streaming.
+Assitant Id :@FaLLenx4ngeL
 
 💡 *Note: stream & stop command can only be executed by group admin only!*
 
 Powered By : [video-stream](https://t.me/angelsupports)
 """
 
-__mod_name__ = "VC Music"
+__mod_name__ = "ᴠᴄ ᴍᴜꜱɪᴄ🎧"
