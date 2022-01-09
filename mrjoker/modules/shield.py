@@ -1,25 +1,28 @@
 import asyncio
 import os
 import re
+
 import better_profanity
 import emoji
 import nude
 import requests
+from mrjoker import telethn as tbot
 from better_profanity import profanity
 from google_trans_new import google_translator
+from pymongo import MongoClient
 from telethon import events
 from telethon.tl.types import ChatBannedRights
-from mrjoker.confing import get_int_key, get_str_key
-from mrjoker.services.telethonbasics import is_admin
+
+from mrjoker import BOT_ID
+from mrjoker.conf import get_str_key
 from mrjoker.events import register
-from pymongo import MongoClient
-from mrjoker.modules.sql.nsfw_watch_sql import (
+from mrjoker.modules.sql_extended.nsfw_watch_sql import (
     add_nsfwatch,
     get_all_nsfw_enabled_chat,
     is_nsfwatch_indb,
     rmnsfwatch,
 )
-from mrjoker import telethn as tbot, MONGO_DB_URI, BOT_ID
+from mrjoker.pyro.telethonbasics import is_admin
 
 translator = google_translator()
 MUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
@@ -109,11 +112,38 @@ async def nsfw_watch(event):
         return
 
 
+@tbot.on(events.NewMessage())
+async def ws(event):
+    warner_starkz = get_all_nsfw_enabled_chat()
+    if len(warner_starkz) == 0:
+        return
+    if not is_nsfwatch_indb(str(event.chat_id)):
+        return
+    if not (event.photo):
+        return
+    if not await is_admin(event, BOT_ID):
+        return
+    if await is_admin(event, event.message.sender_id):
+        return
+    sender = await event.get_sender()
+    await event.client.download_media(event.photo, "nudes.jpg")
+    if nude.is_nude("./nudes.jpg"):
+        await event.delete()
+        st = sender.first_name
+        hh = sender.id
+        final = f"**NSFW DETECTED**\n\n{st}](tg://user?id={hh}) your message contain NSFW content.. So, Mr.Joker deleted the message\n\n **Nsfw Sender - User / Bot :** {st}](tg://user?id={hh})"
+        dev = await event.respond(final)
+        await asyncio.sleep(10)
+        await dev.delete()
+        os.remove("nudes.jpg")
+
+
+
 approved_users = db.approve
 spammers = db.spammer
 globalchat = db.globchat
 
-CMD_STARTERS = ["/", "!", "."]
+CMD_STARTERS = "/"
 profanity.load_censor_words_from_file("./profanity_wordlist.txt")
 
 
@@ -255,7 +285,7 @@ async def del_profanity(event):
                     await event.delete()
                     st = sender.first_name
                     hh = sender.id
-                    final = f"**NSFW DETECTED**\n\n{st}](tg://user?id={hh}) your message contain NSFW content.. So, Layla deleted the message\n\n **Nsfw Sender - User / Bot :** {st}](tg://user?id={hh})  \n\n`⚔️Automatic Detections Powered By LaylaAI` \n**#GROUP_GUARDIAN** "
+                    final = f"**NSFW DETECTED**\n\n{st}](tg://user?id={hh}) your message contain NSFW content.. So, Mr.Joker deleted the message\n\n **Nsfw Sender - User / Bot :** {st}](tg://user?id={hh}) "
                     dev = await event.respond(final)
                     await asyncio.sleep(10)
                     await dev.delete()
@@ -314,5 +344,15 @@ async def del_profanity(event):
                     dev = await event.respond(final)
                     await asyncio.sleep(10)
                     await dev.delete()
+#
 
-__mod_name__ = "ꜱʜɪᴇʟᴅ⚔️"
+__help__ = """
+*Group Guardian:*
+Mr.Joker can protect your group from NSFW senders, Slang word users and also can force members to use English
+
+*Commmands*
+ 🔹 `/gshield` on/off - Enable|Disable Porn cleaning
+ 🔹 `/globalmode` on/off - Enable|Disable English only mode
+ 🔹 `/profanity` on/off - Enable|Disable slag word cleaning
+"""
+__mod_name__ = "ɢʀᴏᴜᴘ-ꜱʜɪᴇʟᴅ⚔️"
