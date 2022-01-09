@@ -248,7 +248,7 @@ def main():
 
 
 
-__mod_name__ = "URL Upload"
+__mod_name__ = "ᴜʀʟ ᴜᴘʟᴏᴀᴅ🧪"
 
 __help__ = """
 Here is the help for the Upload module:
