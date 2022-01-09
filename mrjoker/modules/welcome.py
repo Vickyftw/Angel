@@ -189,7 +189,7 @@ def new_member(update: Update, context: CallbackContext):
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    "ALL ATTENTION MY GOD HERE LET'S SEE WHAT HAPPEN kisi ne backchodi ki boss se to ma chod duga (｡•̀ᴗ-)✧.",
+                    "😳 ᴡᴏᴡᴡ ᴍᴏɪ ɢᴏᴅ ʜᴀꜱ ᴇɴᴛᴇʀᴇᴅ ᴛʜᴇ ᴄʜᴀᴛ ✨😈🔥 ᴅᴏɴ'ᴛ ᴡᴏʀʀʏ ᴛʜɪꜱ ɢʀᴘ ʜɪꜱ ᴜɴᴅᴇʀ ᴍʏ ᴄᴏɴᴛʀᴏʟ 🤣.",
                     reply_to_message_id=reply,
                 )
                 welcome_log = (
@@ -1308,7 +1308,7 @@ dispatcher.add_handler(BUTTON_VERIFY_HANDLER)
 dispatcher.add_handler(WELCOME_MUTE_HELP)
 dispatcher.add_handler(CAPTCHA_BUTTON_VERIFY_HANDLER)
 
-__mod_name__ = "Greetings"
+__mod_name__ = "ɢʀᴇᴇᴛɪɴɢꜱ🌸"
 __command_list__ = []
 __handlers__ = [
     NEW_MEM_HANDLER,
