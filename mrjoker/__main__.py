@@ -107,7 +107,7 @@ buttons = [
 
 HELP_STRINGS = """
 **ꜱᴇᴛᴛɪɴɢꜱ⚙️**
-**🎀ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ**[🎀](https://telegra.ph/file/a384a9a5d86c352a46f38.png)"""
+**ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ**[🎀](https://telegra.ph/file/a384a9a5d86c352a46f38.png)"""
 
 
 
@@ -226,7 +226,7 @@ def start(update: Update, context: CallbackContext):
  
             )
     else:
-        update.effective_message.reply_photo(
+        update.effective_message.reply_video(
             MRJOKER_IMG, caption= "✨🦄 𝙈𝙚 𝙞𝙯 𝘼𝙬𝙖𝙠𝙚 ! 🌻✨\n<b>𝙃𝙖𝙫𝙚𝙣'𝙩 𝙨𝙡𝙚𝙥𝙩 𝙨𝙞𝙣𝙘𝙚🥺:</b> <code>{}</code>".format(
                 uptime
             ),
