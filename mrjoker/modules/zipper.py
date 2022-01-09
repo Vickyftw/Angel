@@ -214,4 +214,4 @@ __help__ = """
 ╚ `/unzip`: reply to a telegram file to decompress it from the .zip format
 """
 
-__mod_name__ = "Zipper"
+__mod_name__ = "ᴢɪᴘᴘᴇʀ🤐"
