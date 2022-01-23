@@ -2331,7 +2331,7 @@ def get_chat(chat_id, chat_data):
 @run_async
 def fed_owner_help(update: Update, context: CallbackContext):
     update.effective_message.reply_text(
-        """*👑 Fed Owner Only:*
+        """*👑 Fed Owner Commands:*
 
  🔹  /newfed <fed_name>*:* Creates a Federation, One allowed per user
  🔹  /renamefed <fed_id> <new_fed_name>*:* Renames the fed id to a new name
