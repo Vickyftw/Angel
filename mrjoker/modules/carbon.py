@@ -24,9 +24,9 @@ async def carbon_func(_, message):
     carbon.close()
 
 __help__ = """
-  🔹 `/carbon` <text> [or reply]
+  🔹 /carbon` <text> [or reply]
   
-Usage: Beautify your code using carbon.now.sh
+Usage : Beautify your code using carbon.now.sh
 """
 
 __mod_name__ = "ᴄᴀʀʙᴏɴ🖨"
