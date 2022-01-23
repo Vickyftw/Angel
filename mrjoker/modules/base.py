@@ -105,7 +105,7 @@ async def __(event):
     os.remove(fname)
     
 __help__ = """
-🔹`/bassboost` : Reply Your File
+🔸 /bassboost : Reply Your File
 """
 
 __mod_name__ = "ʙᴀꜱꜱ ʙᴏᴏꜱᴛ🎸"
