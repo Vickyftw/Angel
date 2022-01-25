@@ -88,7 +88,7 @@ async def __(event):
         )
 
     else:
-        m.name = "BassBoosted(Mr.Joker).mp3"
+        m.name = "BassBoosted(Angel).mp3"
         await lel.edit("`Now Exporting...`")
         await asyncio.sleep(0.3)
         out.export(m, format="mp3")
@@ -108,4 +108,4 @@ __help__ = """
 🔸 /bassboost : Reply Your File
 """
 
-__mod_name__ = "ʙᴀꜱꜱ ʙᴏᴏꜱᴛ🎸"
+__mod_name__ = "Bass-Boosted"
