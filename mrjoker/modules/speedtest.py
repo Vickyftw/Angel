@@ -30,7 +30,7 @@ def speedtestxyz_callback(update: Update, context: CallbackContext):
     query = update.callback_query
 
     if query.from_user.id in DEV_USERS:
-        msg = update.effective_message.edit_text("Running a speedtest....")
+        msg = update.effective_message.edit_text("Running a speedtest Instantly....")
         speed = speedtest.Speedtest()
         speed.get_best_server()
         speed.download()
