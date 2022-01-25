@@ -95,14 +95,15 @@ buttons = [
     [
         InlineKeyboardButton(text="⚡️ ɪɴꜰᴏ ⚡", callback_data="mrjoker_"),
         InlineKeyboardButton(
-            text="💈 ʙᴀꜱɪᴄ ʜᴇʟᴘ 💈", callback_data="mrjoker_basichelp"
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="http://t.me/angelxupdates"),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="http://t.me/angelsupports"),
+            text="💈 ʙᴀꜱɪᴄ ʜᴇʟᴘ 💈", callback_data="mrjoker_basichelp"        
         ),
     ],
     
     [
         InlineKeyboardButton(text="💕 ᴛᴀᴋᴇ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴘ 💕 ", url="http://t.me/AngelxRobot?startgroup=true"),
+        InlineKeyboardButton(
+             text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="http://t.me/angelxupdates"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="http://t.me/angelsupports"),
     ],
 ]
 
