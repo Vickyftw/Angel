@@ -355,4 +355,4 @@ Angel can protect your group from NSFW senders, Slang word users and also can fo
  🔹  /globalmod on/off - Enable|Disable English only mode
  🔹  /profanity on/off - Enable|Disable slag word cleaning
 """
-__mod_name__ = "ɢʀᴏᴜᴘ-ꜱʜɪᴇʟᴅ⚔️"
+__mod_name__ = "Group-Sheild"
