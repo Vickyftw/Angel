@@ -87,6 +87,9 @@ buttons = [
     [
         InlineKeyboardButton(
             text="🙋🏻‍♀️ ʜᴇʟᴘ 🙋🏻‍♀️", callback_data="help_back"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="http://t.me/angelxupdates"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="http://t.me/angelsupports"),
+
     ],
    # [
      #   InlineKeyboardButton(
@@ -101,9 +104,6 @@ buttons = [
     
     [
         InlineKeyboardButton(text="💕 ᴛᴀᴋᴇ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴘ 💕 ", url="http://t.me/AngelxRobot?startgroup=true"),
-        InlineKeyboardButton(text="♻️ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ♻️ ", url="http://t.me/angelxupdates"),
-        InlineKeyboardButton(text="🥂ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🥂 ", url="http://t.me/angelsupports"),
-
     ],
 ]
 
@@ -816,7 +816,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "https://telegra.ph/file/4b686274921135ad346e7.mp4")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "[🔥😹ＭｅｉｚＢａｃｋ😼⚡️](https://telegra.ph/file/4b686274921135ad346e7.mp4)"
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
