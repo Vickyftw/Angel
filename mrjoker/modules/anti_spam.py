@@ -161,7 +161,7 @@ def gban(update: Update, context: CallbackContext):
 
         return
 
-    message.reply_text("On it!")
+    message.reply_text("✨😤 ɪɴɪᴛɪᴀᴛɪɴɢ ɢʟᴏʙᴀʟ ʙᴀɴ ᴏɴ ᴛʜɪꜱ ᴜꜱᴇʀ ! ✨💃🏻")
 
     start_time = time.time()
     datetime_fmt = "%Y-%m-%dT%H:%M"
@@ -254,9 +254,9 @@ def gban(update: Update, context: CallbackContext):
 
     if gban_time > 60:
         gban_time = round((gban_time / 60), 2)
-        message.reply_text("Done! Gbanned.", parse_mode=ParseMode.HTML)
+        message.reply_text("ᴅᴏɴᴇ ! ɢʙᴀɴɴᴇᴅ 🥳✨.", parse_mode=ParseMode.HTML)
     else:
-        message.reply_text("Done! Gbanned.", parse_mode=ParseMode.HTML)
+        message.reply_text("ᴅᴏɴᴇ ! ɢʙᴀɴɴᴇᴅ 🥳✨.", parse_mode=ParseMode.HTML)
 
     try:
         bot.send_message(
@@ -562,7 +562,7 @@ dispatcher.add_handler(UNGBAN_HANDLER)
 dispatcher.add_handler(GBAN_LIST)
 dispatcher.add_handler(GBAN_STATUS)
 
-__mod_name__ = "ᴀɴᴛɪ-ꜱᴘᴀᴍ🤫"
+__mod_name__ = "Anti-Spam"
 __handlers__ = [GBAN_HANDLER, UNGBAN_HANDLER, GBAN_LIST, GBAN_STATUS]
 
 if STRICT_GBAN:  # enforce GBANS if this is set
