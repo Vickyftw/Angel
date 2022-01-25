@@ -87,9 +87,6 @@ buttons = [
     [
         InlineKeyboardButton(
             text="🙋🏻‍♀️ ʜᴇʟᴘ 🙋🏻‍♀️", callback_data="help_back"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="http://t.me/angelxupdates"),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="http://t.me/angelsupports"),
-
     ],
    # [
      #   InlineKeyboardButton(
@@ -99,6 +96,8 @@ buttons = [
         InlineKeyboardButton(text="⚡️ ɪɴꜰᴏ ⚡", callback_data="mrjoker_"),
         InlineKeyboardButton(
             text="💈 ʙᴀꜱɪᴄ ʜᴇʟᴘ 💈", callback_data="mrjoker_basichelp"
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="http://t.me/angelxupdates"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="http://t.me/angelsupports"),
         ),
     ],
     
@@ -128,7 +127,7 @@ HELP_STRINGS = """
 DONATE_STRING = """ Heya, glad to hear you want to donate!
 You can support the project by contacting @ThomasShebLYY
 Supporting isnt always financial! 
-Those who cannot provide monetary support are welcome to help us develop the bot at ."""
+Those who cannot provide monetary support are welcome to help us develop the bot at @angelsupports."""
 
 IMPORTED = {}
 MIGRATEABLE = []
