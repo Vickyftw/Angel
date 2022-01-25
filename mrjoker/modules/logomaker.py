@@ -423,4 +423,4 @@ __help__ = """
  🔹  /blogo  <text> :  Create your logo with your name
  🔹  /tlogo  <text> :  Create your logo with your name
  """
-__mod_name__ = "ʟᴏɢᴏ ᴍᴀᴋᴇʀ🔮"
+__mod_name__ = "Logo Maker"
