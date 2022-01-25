@@ -12,14 +12,14 @@ async def lastname(steal):
     if steal.fwd_from:
         return
     if not steal.reply_to_msg_id:
-        await puki.edit("```Please Reply To User Message.```")
+        await puki.edit("```Please Reply To User Message..```")
         return
     message = await steal.get_reply_message()
     chat = "@SangMataInfo_bot"
     user_id = message.sender.id
     id = f"/search_id {user_id}"
     if message.sender.bot:
-        await puki.edit("```Reply To Real User's Message.```")
+        await puki.edit("```Reply To Real User's Message..```")
         return
     await puki.edit("```Please wait...```")
     try:
