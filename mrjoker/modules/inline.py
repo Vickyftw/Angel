@@ -48,7 +48,7 @@ class AioHttp:
             return await resp.read()
 
 
-__mod_name__ = "ɪɴʟɪɴᴇ ᴍᴏᴅᴇ📩"
+__mod_name__ = "InLine-Mode"
 __help__ = """
 ⚊❮❮❮❮ ｢INLINE BOT SERVICE」❯❯❯❯⚊
 
