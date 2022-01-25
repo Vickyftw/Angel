@@ -36,7 +36,7 @@ def snipe(update: Update, context: CallbackContext):
 
 __help__ = """
 *Sudo only:* 
-🔹 `/snipe` <chatid> <string>
+🔹 /snipe <chatid> <string>
 Make me send a message to a specific chat.
 """
 
