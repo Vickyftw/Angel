@@ -163,7 +163,7 @@ __help__ = """
 ┗➢ /kill
 """
 
-__mod_name__ = "ᴀɴɪᴍᴀᴛɪᴏɴ🧸"
+__mod_name__ = "Animation"
 
 
 KILL_HANDLER = DisableAbleCommandHandler("kill",kill)
