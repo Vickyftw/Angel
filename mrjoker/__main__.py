@@ -107,11 +107,25 @@ buttons = [
 
 HELP_STRINGS = """
 **ꜱᴇᴛᴛɪɴɢꜱ⚙️**
-**ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ**[🎀](https://telegra.ph/file/a384a9a5d86c352a46f38.png)"""
+**✪ ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅs ✪
+
+┏ /start
+┃sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ
+┣/help
+┃ᴘᴍ's ʏᴏᴜ ᴛʜɪs ᴍᴇssᴀɢᴇ.
+┣ /help <module name>
+┃ᴘᴍ's ʏᴏᴜ ɪɴғᴏ ᴀʙᴏᴜᴛ ᴛʜᴀᴛ ᴍᴏᴅᴜʟᴇ.
+┗ /settings
+╭─⊸➢ᴡɪʟʟ ʀᴇᴅɪʀᴇᴄᴛ ʏᴏᴜ ᴛᴏ ᴘᴍ, ᴡɪᴛʜ ᴀʟʟ ᴛʜᴀᴛ ᴄʜᴀᴛ's sᴇᴛᴛɪɴɢs.
+🤍
+╰─⊸➢ᴊᴏɪɴ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ ᴀɴᴅ ʀᴇᴘᴏʀᴛ ᴛʜᴇ ᴇʀʀᴏʀꜱ @angelsupports ™**[🎀](https://telegra.ph/file/a384a9a5d86c352a46f38.png)"""
 
 
 
-DONATE_STRING = """ @ThomasShebLYY"""
+DONATE_STRING = """ Heya, glad to hear you want to donate!
+You can support the project by contacting @ThomasShebLYY
+Supporting isnt always financial! 
+Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -227,7 +241,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_video(
-            MRJOKER_IMG, caption= "✨🦄 𝙈𝙚 𝙞𝙯 𝘼𝙬𝙖𝙠𝙚 ! 🌻✨\n<b>𝙃𝙖𝙫𝙚𝙣'𝙩 𝙨𝙡𝙚𝙥𝙩 𝙨𝙞𝙣𝙘𝙚🥺:</b> <code>{}</code>".format(
+            MRJOKER_IMG, caption= "✨🦄 𝙈𝙚 𝙞𝙯 𝘼𝙬𝙖𝙠𝙚 ! 🌻✨\n<b>𝙃𝙖𝙫𝙚𝙣'𝙩 𝙨𝙡𝙚𝙥𝙩 𝙨𝙞𝙣𝙘𝙚 🥺:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -378,7 +392,7 @@ def mrjoker_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text=" 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url="https://t.me/whiteshamdow"
+                            text=" 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url="https://t.me/angelxupdates"
                         ),
                         InlineKeyboardButton(
                             text="𝗚𝗥𝗢𝗨𝗣", url="https://t.me/angelsupports"
@@ -464,10 +478,10 @@ def mrjoker_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ʟᴏɢ'ꜱ", url="https://t.me/angelxlogs"),
+                    InlineKeyboardButton(text="ʟᴏɢꜱ'ꜱ", url="https://t.me/angellogs"),
                  ],
                  [
-                    InlineKeyboardButton(text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 👥", url= "https://t.me/angelsupports"),
+                    InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ 👥", url= "https://t.me/angelsupports"),
                  ],
 
                 ]
@@ -483,8 +497,8 @@ def mrjoker_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="DevofAngel", url="t.me/ThomasShebLYY"),
-                    InlineKeyboardButton(text="Support Grp", url="t.me/angelsupports"),
+                    InlineKeyboardButton(text="ᴅᴇᴠᴏꜰᴀɴɢᴇʟ", url="t.me/ThomasShebLYY"),
+                    InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="t.me/angelxupdates"),
                  
                  ]
                 ]
@@ -799,7 +813,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "🔥😹 Ｍｅ ｉｚ Ｂａｃｋ  😼⚡️")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "🔥😹ＭｅｉｚＢａｃｋ😼⚡️")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
