@@ -124,7 +124,7 @@ def sed(update: Update, context: CallbackContext):
 
 
 
-__mod_name__ = "ꜱᴇᴅ/ʀᴇɢᴇx❇️"
+__mod_name__ = "ꜱᴇᴅ/ʀᴇɢᴇx"
 
 SED_HANDLER = DisableAbleMessageHandler(
     Filters.regex(r"s([{}]).*?\1.*".format("".join(DELIMITERS))), sed, friendly="sed"
