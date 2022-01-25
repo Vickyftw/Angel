@@ -81,7 +81,7 @@ __help__ = """
 ▪️ The background should be somewhat darker than the page
 ▪️ The image should contain only the page with no other objects like pencil, eraser etc. beside it(within the image)
 
- 🔹 `/cscan` : Reply to a image to scan and improve it's clarity.
+ 🔹 /cscan : Reply to a image to scan and improve it's clarity.
 """
 
 __mod_name__ = "ᴄᴀᴍ ꜱᴄᴀɴɴᴇʀ📸"
