@@ -515,7 +515,7 @@ be a sentence, encompass it with quotes, as such: `/addwarn "very angry" This is
 🔹  /strongwarn <on/yes/off/no>:
 """
 
-__mod_name__ = "ᴡᴀʀɴꜱ❕"
+__mod_name__ = "Warns"
 
 WARN_HANDLER = CommandHandler(["warn", "dwarn"], warn_user, filters=Filters.group)
 RESET_WARN_HANDLER = CommandHandler(
