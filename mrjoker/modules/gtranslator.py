@@ -49,13 +49,13 @@ Use this module to translate stuff!
 
 *Commands:*
 
-🔹 `/tl` (or `/tr`): as a reply to a message, translates it to English.
+🔹  /tl (or `/tr`): as a reply to a message, translates it to English.
 
-🔹 `/tl <lang>`: translates to <lang>
-        eg: `/tl si`: translates to Sinhala.
+🔹  /tl <lang>: translates to <lang>
+        eg: /tl si : translates to Sinhala.
         
-🔹 `/tl <source>//<dest>`: translates from <source> to <lang>.
-        eg: `/tl si//en`: translates from Sinhala to English.
+🔹  /tl <source>//<dest>: translates from <source> to <lang>.
+        eg: /tl si//en`: translates from Sinhala to English.
         
 • *Language Codes*
 `af,am,ar,az,be,bg,bn,bs,ca,ceb,co,cs,cy,da,de,el,en,eo,es,
