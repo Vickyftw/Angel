@@ -157,10 +157,10 @@ def kill(update: Update, context: CallbackContext):
 
 
 __help__ = """
-╭─⊸➢ /love : 
-┣  /hack :
-┣ /bombs :
-╰─⊸➢ /kill :
+┏➢  /love 
+┣   /hack
+┣   /bombs
+┗➢ /kill
 """
 
 __mod_name__ = "ᴀɴɪᴍᴀᴛɪᴏɴ🧸"
