@@ -37,9 +37,9 @@ async def drawText(image_path, text):
     shadowcolor = "black"
     i_width, i_height = img.size
     if os.name == "nt":
-        fnt = "ariel.ttf"
+        fnt = "arial.ttf"
     else:
-        fnt = "./mrjoker/resources/DroidSansMono.ttf"
+        fnt = "./mrjoker/pack/DroidSansMono.ttf"
     m_font = ImageFont.truetype(fnt, int((70 / 640) * i_width))
     if ";" in text:
         upper_text, lower_text = text.split(";")
