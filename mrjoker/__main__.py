@@ -101,6 +101,9 @@ buttons = [
     
     [
         InlineKeyboardButton(text="💕 ᴛᴀᴋᴇ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴘ 💕 ", url="http://t.me/AngelxRobot?startgroup=true"),
+        InlineKeyboardButton(text="♻️ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ♻️ ", url="http://t.me/angelxupdates"),
+        InlineKeyboardButton(text="🥂ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🥂 ", url="http://t.me/angelsupports"),
+
     ],
 ]
 
@@ -215,7 +218,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="⬅️ 𝗕𝗔𝗖𝗞", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="⬅️ ʙᴀᴄᴋ", callback_data="help_back")]]
                     ),
                 )
 
@@ -241,12 +244,12 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_video(
-            MRJOKER_IMG, caption= "✨🦄 𝙈𝙚 𝙞𝙯 𝘼𝙬𝙖𝙠𝙚 ! 🌻✨\n<b>𝙃𝙖𝙫𝙚𝙣'𝙩 𝙨𝙡𝙚𝙥𝙩 𝙨𝙞𝙣𝙘𝙚 🥺:</b> <code>{}</code>".format(
+            MRJOKER_IMG, caption= "✨🦄 𝙈𝙚 𝙞𝙯 𝘼𝙬𝙖𝙠𝙚 ! 🌻✨\n<b> 𝙃𝙖𝙫𝙚𝙣'𝙩 𝙨𝙡𝙚𝙥𝙩 𝙨𝙞𝙣𝙘𝙚 🥺:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="💔𝙎𝙪𝙥𝙥𝙤𝙧𝙩💔", url="t.me/angelsupports")]]
+                [[InlineKeyboardButton(text="💔 𝙎𝙪𝙥𝙥𝙤𝙧𝙩 💔", url="t.me/angelsupports")]]
             ),
         )
         
@@ -332,7 +335,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="⬅️ 𝗕𝗔𝗖𝗞", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="⬅️ ʙᴀᴄᴋ", callback_data="help_back")]]
                 ),
             )
 
@@ -392,13 +395,13 @@ def mrjoker_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text=" 𝗖𝗛𝗔𝗡𝗡𝗘𝗟", url="https://t.me/angelxupdates"
+                            text="ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/angelxupdates"
                         ),
                         InlineKeyboardButton(
-                            text="𝗚𝗥𝗢𝗨𝗣", url="https://t.me/angelsupports"
+                            text="ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="https://t.me/angelsupports"
                         ),
                     ],
-                    [InlineKeyboardButton(text="⬅️ 𝗕𝗔𝗖𝗞", callback_data="mrjoker_back")],
+                    [InlineKeyboardButton(text="⬅️ ʙᴀᴄᴋ", callback_data="mrjoker_back")],
                 ]
             ),
         )
@@ -435,7 +438,7 @@ def mrjoker_about_callback(update, context):
                     InlineKeyboardButton(text="ɢᴏ ɪɴʟɪɴᴇ ↗️", switch_inline_query_current_chat=""),
                  ],
                  [
-                    InlineKeyboardButton(text="⬅️ 𝗕𝗔𝗖𝗞", callback_data="mrjoker_back"),
+                    InlineKeyboardButton(text="⬅️ ʙᴀᴄᴋ", callback_data="mrjoker_back"),
                  
                  ]
                 ]
@@ -454,7 +457,7 @@ def mrjoker_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="⬅️ 𝗕𝗔𝗖𝗞", callback_data="mrjoker_basichelp")]]
+                [[InlineKeyboardButton(text="⬅️ ʙᴀᴄᴋ", callback_data="mrjoker_basichelp")]]
             ),
         )
 
@@ -466,7 +469,7 @@ def mrjoker_about_callback(update, context):
             f"\n\nYou can also set buttons for notes and filters (refer help menu)",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text= "⬅️ 𝗕𝗔𝗖𝗞", callback_data="mrjoker_basichelp")]]
+                [[InlineKeyboardButton(text= "⬅️ ʙᴀᴄᴋ", callback_data="mrjoker_basichelp")]]
             ),
         )
         
@@ -518,7 +521,7 @@ def Source_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="⬅️ 𝗕𝗔𝗖𝗞", callback_data="source_back")
+                    InlineKeyboardButton(text="⬅️ ʙᴀᴄᴋ", callback_data="source_back")
                  ]
                 ]
             ),
@@ -547,7 +550,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="𝗛𝗘𝗟𝗣",
+                                text="ʜᴇʟᴘ",
                                 url="t.me/{}?start=ghelp_{}".format(
                                     context.bot.username, module
                                 ),
@@ -590,7 +593,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="⬅️ 𝗕𝗔𝗖𝗞", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="⬅️ ʙᴀᴄᴋ", callback_data="help_back")]]
             ),
         )
 
@@ -663,7 +666,7 @@ def settings_button(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="⬅️ 𝗕𝗔𝗖𝗞",
+                                text="⬅️ ʙᴀᴄᴋ",
                                 callback_data="stngs_back({})".format(chat_id),
                             )
                         ]
@@ -813,7 +816,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "🔥😹ＭｅｉｚＢａｃｋ😼⚡️")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "https://telegra.ph/file/4b686274921135ad346e7.mp4")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
