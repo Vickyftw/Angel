@@ -34,4 +34,4 @@ __help__ = """
  🔹  /phone <tp no> : Track Phone no
  🔹  /barcode <text>: makes a barcode out of the text, crop the barcode if you don't want to reveal the text
 """
-__mod_name__ = "ᴍᴏʀᴇ ᴛᴏᴏʟꜱ🛠"
+__mod_name__ = "More Tools"
