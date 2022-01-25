@@ -408,11 +408,11 @@ __help__ = """
  
 **Syntax** -
 
-    🔸`/poll <poll-id> <question> | <True@optionnumber/False> <True/False> <True/False> <option1> <option2> ... upto <option10>`
+    🔸 /poll <poll-id> <question> | <True@optionnumber/False> <True/False> <True/False> <option1> <option2> ... upto <option10>`
     
 **Examples** -
-    🔸`/poll 12345 | Your like this bot | False False False yes no`
-    🔸`/poll 12345 | am i cool? | True@1 False False yes no`
+    🔸 /poll 12345 | Your like this bot | False False False yes no`
+    🔸 /poll 12345 | am i cool? | True@1 False False yes no`
     
 **To stop a poll**
 
