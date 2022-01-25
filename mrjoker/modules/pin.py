@@ -200,16 +200,16 @@ from the popular Telegram Bot"""
 
 __help__ = """
 
-*Admin only:*
- 🔹 `/pin`: silently pins the message replied to
+*ᴀᴅᴍɪɴꜱ ᴏɴʟʏ :*
+ 🔹  /pin : silently pins the message replied to
        : add 'loud' or 'notify' to give notifs to users.
- 🔹 `/unpin`: unpins the currently pinned message
- 🔹 `/antichannelpin` <yes/no/on/off>: Don't let telegram auto-pin linked channels.
- 🔹 `/cleanlinked` <yes/no/on/off>: Delete messages sent by the linked channel.
+ 🔹  /unpin: unpins the currently pinned message
+ 🔹  /antichannelpin <yes/no/on/off>: Don't let telegram auto-pin linked channels.
+ 🔹  /cleanlinked <yes/no/on/off>: Delete messages sent by the linked channel.
 
 *Note:*
 
-When using antichannel pins, make sure to use the `/unpin` command,
+When using antichannel pins, make sure to use the /unpin` command,
 instead of doing it manually.
 
 Otherwise, the old message will get re-pinned when the channel sends any messages.
