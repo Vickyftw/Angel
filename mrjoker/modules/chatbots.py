@@ -13,4 +13,4 @@ __help__= f"""
 *Powered by* : [Kuki Chatbot](https://github.com/MoeZilla/KukiChatbot)
 """
 
-__mod_name__ = "ᴄʜᴀᴛʙᴏᴛꜱ🤖"
+__mod_name__ = "ChatBots"
