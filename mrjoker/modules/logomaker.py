@@ -261,7 +261,7 @@ async def lego(event):
        return
     else:
        pass
- pesan = await event.reply('`Processing..`')
+ pesan = await event.reply('`wait and watch⚡️😎✨..`')
  try:
     text = event.pattern_match.group(1)
     randc = random.choice(TELEGRAPH_MEDIA_LINKS)
@@ -418,9 +418,9 @@ file_helpo = file_help.replace("_", " ")
 
 
 __help__ = """
- 🔹 `/jlogo` <text> :  Create your logo with your name
- 🔹 `/ylogo` <text> :  Create your logo with your name
- 🔹 `/blogo` <text> :  Create your logo with your name
- 🔹 `/tlogo` <text> :  Create your logo with your name
+ 🔹  /jlogo  <text> :  Create your logo with your name
+ 🔹  /ylogo  <text> :  Create your logo with your name
+ 🔹  /blogo  <text> :  Create your logo with your name
+ 🔹  /tlogo  <text> :  Create your logo with your name
  """
 __mod_name__ = "ʟᴏɢᴏ ᴍᴀᴋᴇʀ🔮"
