@@ -21,7 +21,7 @@
 
 
 <h1 align ="center">🦄⃝ᴳᵒᵈ✗✿᭄͜͡AɳɠɛƖ➻❥✰࿐🧚‍♀️</h1>
-<h1 align = "center">ʜᴇʟʟᴏ ᴛʜᴇʀᴇ, ɪ'ᴍ 𝘼𝙣𝙜𝙚𝙡 (https://telegra.ph/file/1414312e8d47e9d283259.png)
+<h1 align = "center">ʜᴇʟʟᴏ ᴛʜᴇʀᴇ, ɪ'ᴍ 𝘼𝙣𝙜𝙚𝙡 
 ɪ ᴀᴍ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ꜱᴜᴘᴇʀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴍᴀɴʏ ʜᴀɴᴅʏ ᴛᴏᴏʟꜱ..</center></h1>
 
 <p><h3 align = "justify">A modular telegram Python bot running on python3 with an sqlalchemy database.</br></br></h3>
