@@ -17,7 +17,7 @@
 
 
 <p align="Center">
-<a href="https://github.com/Vickyftw/Angel/discussions" alt="Mr Joker"> <img src="https://img.shields.io/badge/%F0%9F%A4%A1-Mr%20Joker%20Discussions-9cf" /> </a>
+<a href="https://github.com/Vickyftw/Angel/discussions" alt="Angel"> <img src="https://img.shields.io/badge/%F0%9F%A4%A1-Mr%20Joker%20Discussions-9cf" /> </a>
 
 
 <h1 align ="center">🦄⃝ᴳᵒᵈ✗✿᭄͜͡AɳɠɛƖ➻❥✰࿐🧚‍♀️</h1>
