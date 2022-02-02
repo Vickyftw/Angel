@@ -10,18 +10,19 @@
 </a>
 
 <p align = "center">
-<a href = "https://github.com/kjeymax/MR-JOKER_BOT">
+<a href = "https://github.com/Vickyftw/Angel">
 <img src = "https://forthebadge.com/images/badges/open-source.svg">
 </p>
 </a>
 
 
 <p align="Center">
-<a href="https://github.com/kjeymax/MR-JOKER_BOT/discussions" alt="Mr Joker"> <img src="https://img.shields.io/badge/%F0%9F%A4%A1-Mr%20Joker%20Discussions-9cf" /> </a>
+<a href="https://github.com/Vickyftw/Angel/discussions" alt="Mr Joker"> <img src="https://img.shields.io/badge/%F0%9F%A4%A1-Mr%20Joker%20Discussions-9cf" /> </a>
 
 
-<h1 align ="center"> 𝍖𝍖𝍖𐒄Ɽ.ʝⰙƘƸⱤ𝍖𝍖𝍖</h1>
-<h1 align = "center">Yo,🤡♂️I'm Alive..I'm a super bot 🔥...🚴‍♂️Speed 1 THz..Memory 1 Zettabyte.🕺</center></h1>
+<h1 align ="center">🦄⃝ᴳᵒᵈ✗✿᭄͜͡AɳɠɛƖ➻❥✰࿐🧚‍♀️</h1>
+<h1 align = "center">ʜᴇʟʟᴏ ᴛʜᴇʀᴇ, ɪ'ᴍ 𝘼𝙣𝙜𝙚𝙡 (https://telegra.ph/file/1414312e8d47e9d283259.png)
+ɪ ᴀᴍ ᴀɴɪᴍᴇ ᴛʜᴇᴍᴇᴅ ꜱᴜᴘᴇʀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴡɪᴛʜ ᴍᴀɴʏ ʜᴀɴᴅʏ ᴛᴏᴏʟꜱ..</center></h1>
 
 <p><h3 align = "justify">A modular telegram Python bot running on python3 with an sqlalchemy database.</br></br></h3>
   
