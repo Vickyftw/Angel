@@ -161,7 +161,7 @@ sqldbtype://username:pw@hostname:port/db_name
 
 ## Discussions
 <p align="left">
-<a href="https://github.com/kjeymax/MR-JOKER_BOT/discussions" alt="Mr Joker"> <img src="https://img.shields.io/badge/%F0%9F%A4%A1-Mr%20Joker%20Discussions-9cf" /> </a>
+<a href="https://github.com/vickyftw/Angel/discussions" alt="Angel"> <img src="https://telegra.ph/file/5a0b016b70c5696dc9d02.jpg" /> </a>
 
 ## Credits
 
