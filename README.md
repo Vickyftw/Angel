@@ -155,9 +155,9 @@ sqldbtype://username:pw@hostname:port/db_name
 <h3 align = "justify">Replace sqldbtype with whichever db youre using (eg postgres, mysql, sqllite, etc) repeat for your username, password, hostname (localhost?), port (5000), and db name.</h3>
 
 ## Support
-[![HITECH](https://img.shields.io/badge/LKHITECH-Channel-red?style=for-the-badge&logo=telegram)](https://telegram.dog/lkhitech)</br></br>
-[![HITECH](https://img.shields.io/badge/LKHITECH-Group-red?style=for-the-badge&logo=telegram)](https://telegram.dog/hitechlkgroup)</br></br>
-[![CONTACT ME](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/kavinduaj)
+[![ANGEL UPDATES](https://img.shields.io/badge/ANGEL CHANNEL-red?style=for-the-badge&logo=telegram)](https://telegram.dog/angelxupdates)</br></br>
+[![HITECH](https://img.shields.io/badge/Angel-Group-red?style=for-the-badge&logo=telegram)](https://telegram.dog/angelsupports)</br></br>
+[![CONTACT ME](https://img.shields.io/badge/Telegram-Contact%20Me-informational)](https://t.me/ThomasShebLYY)
 
 ## Discussions
 <p align="left">
